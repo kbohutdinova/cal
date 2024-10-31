@@ -1,7 +1,9 @@
 x = int(input("Please, enter first number:"))
 y = int(input("Please, enter second number:"))
 operation = int(input("Which operation do you want to use? \n 1) Addition \n 2) Substraction \n 3) Multiplication"
-                      " \n 4) Division \n 5) Exponentation \n 6) Remainder \n 7) Bitwise and "))
+                      " \n 4) Division \n 5) Exponentation \n 6) Remainder \n 7) Bitwise or \n
+                   8) Bitwise and "))
+
 if operation == 1:
     print(x + y)
 if operation == 2:
@@ -21,7 +23,10 @@ if operation == 6:
     else:
         print(x % y)
 if operation == 7:
+    print(x | y)
+if operation == 8
     print(x & y)
+
 
 
 print( " Program has ended successfully.")
